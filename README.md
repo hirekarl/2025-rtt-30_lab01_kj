@@ -17,20 +17,25 @@ Your project manager has asked you to:
 Once you have completed the guided features, you will be tasked with working on additional features of the website, just like you would in a real-world team project.
 
 ### Submission Summary
-Enter at [`index.html`](./index.html).
+&rarr; Enter at [`index.html`](./index.html).
 
 #### Repo Structure
-```shell
+```
 |-- .gitignore
 |-- index.html
 |-- README.md
 |-- img
-|   |-- hero.jpg
-|   `-- customer.jpg
+|   |-- customer.jpg
+|   `-- hero.jpg
 `-- static
     `-- css
         `-- main.css
 ```
+
+#### Attributions
+- Photo by Tranmautritam: https://www.pexels.com/photo/cute-tabby-kitten-on-a-sofa-2194261/
+- Photo by Photo By: Kaboompics.com: https://www.pexels.com/photo/blackboard-with-handwritten-calculations-6256066/
+- Photo by Andrea Piacquadio: https://www.pexels.com/photo/man-in-red-button-up-shirt-smiling-3777946/
 
 ### Questions
 1. I merged each feature branch to `main` after each task on the assignment. Was that correct, or was I supposed to wait to merge branches to `main` only after I'd completed work on each individual branch?
