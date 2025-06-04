@@ -77,6 +77,13 @@ nav a:hover {
     text-align: justify;
 }
 
+/*- MIDI PLAYER -*/
+
+midi-player {
+    margin-top: 36px;
+    width: 100%;
+}
+
 /*- HEADINGS -*/
 
 h1, h2, h3 {

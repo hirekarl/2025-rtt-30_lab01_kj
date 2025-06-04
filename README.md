@@ -33,6 +33,8 @@ Once you have completed the guided features, you will be tasked with working on 
 ```
 
 #### Attributions
+- HTML MIDI Player by cifkao: https://github.com/cifkao/html-midi-player/
+- MIDI "Zombie" by The Cranberries: https://bitmidi.com/cranberries-zombie-mid
 - Photo by Tranmautritam: https://www.pexels.com/photo/cute-tabby-kitten-on-a-sofa-2194261/
 - Photo by Photo By: Kaboompics.com: https://www.pexels.com/photo/blackboard-with-handwritten-calculations-6256066/
 - Photo by Andrea Piacquadio: https://www.pexels.com/photo/man-in-red-button-up-shirt-smiling-3777946/
