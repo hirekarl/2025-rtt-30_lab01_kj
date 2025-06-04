@@ -17,7 +17,7 @@ Your project manager has asked you to:
 Once you have completed the guided features, you will be tasked with working on additional features of the website, just like you would in a real-world team project.
 
 ### Submission Summary
-&rarr; Enter at [`index.html`](./index.html).
+&rarr; Enter at [`index.html`](./index.html). Viewable at [fabulous-clafoutis-b18bb1.netlify.app](https://fabulous-clafoutis-b18bb1.netlify.app/).
 
 #### Repo Structure
 ```
