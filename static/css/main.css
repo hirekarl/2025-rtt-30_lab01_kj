@@ -1,23 +1,146 @@
+/*- BODY -*/
+
 body {
+    color:aliceblue;
+    font-family: 'Brush Script MT', cursive;
     margin: auto;
     width: 33%;
+    background-color:navy;
+    /* https://projects.verou.me/css3patterns/#starry-night */
+    background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    text-align: center;
+/*- CONTAINER -*/
+
+.container {
+    display: flex;
 }
 
-#hero img {
+.container.space-around {
+    justify-content: space-around;
+}
+
+.container.space-evenly {
+    justify-content: space-evenly;
+}
+
+/*- NAV -*/
+
+nav {
+    color: purple;
+    font-size: 18px;
+    padding: 14px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav a {
+    color: coral;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: chartreuse;
+    font-size: 24px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+/*- HERO -*/
+
+#hero-img {
     display: block;
     margin: auto;
     width: 100%;
 }
 
-fieldset {
-    text-align: center;
+#hero h2 {
+    color: aqua;
 }
 
-#testimonials-flexbox {
-    display: flex;
-    justify-content: space-evenly;
+#hero p {
+    text-align: justify;
+}
+
+/*- HEADINGS -*/
+
+h1, h2, h3 {
+    color: deeppink;
+    text-align: center;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+section {
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+/*- HORIZONTAL RULE -*/
+
+hr {
+    border: 2px solid lime;
+}
+
+/*- FORM -*/
+
+fieldset {
+    text-align: center;
+    border: 3px dashed chartreuse;
+    padding: 36px;
+}
+
+label {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    color: dodgerblue;
+}
+
+input, textarea {
+    border: 3px solid purple;
+    border-radius: 10px;
+    color: indigo;
+    background-color:orchid;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+input {
+    width: 50%;
+}
+
+/*- TESTIMONIALS -*/
+
+#testimonials p {
+    text-align: center;
+    font-style: italic;
+}
+
+/*- FOOTER -*/
+
+footer p {
+    text-align: center;
 }
