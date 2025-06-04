@@ -40,5 +40,4 @@ Once you have completed the guided features, you will be tasked with working on 
 - Photo by Andrea Piacquadio: https://www.pexels.com/photo/man-in-red-button-up-shirt-smiling-3777946/
 
 ### Questions
-1. I merged each feature branch to `main` after each task on the assignment. Was that correct, or was I supposed to wait to merge branches to `main` only after I'd completed work on each individual branch?
-2. How would I set my branches up if I found I wanted to make another change to the navigation bar after moving on from that commit? Would I make a new branch name, or is there a way to fast-forward `feature/navigation-bar` so that I can resume work on that feature with the newly applied commits?
+1. How would I set my branches up if I found I wanted to make another change to the navigation bar after moving on from that commit? Would I make a new branch name, or is there a way to fast-forward `feature/navigation-bar` so that I can resume work on that feature with the newly applied commits?
